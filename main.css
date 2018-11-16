@@ -20,15 +20,48 @@ h1{
 
 .column {
     float: left;
-    width: 50%;
+    width: 48%;
+    border: black;
+}
+div{
+  border: 1px dotted black;
 }
 
+img.boy{
+  height: 400px;
+  width: 400px;
+  opacity: .6;
+
+}
 .girl{
-  height: 70vh;
+  height: 75vh;
   width: 53vh;
+  /* opacity: .6;
+  margin: auto; */
+
+}
+
+img.girl{
+  height: 425px;
+  width: 318px;
+  opacity: .6;
 }
 
 .boy{
-  height: 70vh;
-  width: 80vh;
+  height: 75vh;
+  width: 75vh;
+  /* opacity: .6;
+  margin: auto; */
+}
+
+.girl:hover{
+  opacity: 1;
+}
+
+.boy:hover{
+  opacity: 1;
+}
+
+@keyframes fadeInOnHover {
+
 }
