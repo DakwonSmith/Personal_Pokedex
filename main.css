@@ -22,3 +22,13 @@ h1{
     float: left;
     width: 50%;
 }
+
+.girl{
+  height: 70vh;
+  width: 53vh;
+}
+
+.boy{
+  height: 70vh;
+  width: 80vh;
+}
