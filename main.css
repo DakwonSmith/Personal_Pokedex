@@ -4,11 +4,9 @@ html{
 }
 
 header{
-  margin: 0px;
-  padding: 0px;
-
-}
-h1{
+  /* margin: 0px;
+  padding: 0px; */
+  background: #FE161C;
   background-color: #FE161C;
   color: #FFCA08;
   text-shadow:
@@ -17,6 +15,10 @@ h1{
 		-1px 1px 0 #000,
 		1px 1px 0 #000;
 }
+
+/* body{
+  background: url(https://wallup.net/wp-content/uploads/2016/05/24/143432-nature-Pokemon.jpg) no-repeat center center fixed;
+} */
 
 .column {
     float: left;
@@ -71,6 +73,13 @@ img.girl{
   background: #FE161C;
 }
 
+.Pokemans{
+  background: skyblue;
+  width: 300px;
+  height: 200px;
+  padding: 25px;
+  margin: 25px;
+}
 
 
 
