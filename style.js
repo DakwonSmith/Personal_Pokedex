@@ -28,7 +28,7 @@ class pokemans{
 }
 
 // Make a request for a user with a given ID
-axios.get("http://fizal.me/pokeapi/api/v2/name/darkrai.json")
+axios.get("https://fizal.me/pokeapi/api/v2/name/darkrai.json")
   .then(function (response) {
     // handle success
     console.log(response);
