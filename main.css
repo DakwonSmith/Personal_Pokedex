@@ -19,6 +19,10 @@ header{
 /* body{
   background: url(https://wallup.net/wp-content/uploads/2016/05/24/143432-nature-Pokemon.jpg) no-repeat center center fixed;
 } */
+.row {
+  width: 100%;
+  border-spacing: 5px;
+}
 
 .column {
     float: left;
@@ -47,8 +51,6 @@ img.girl{
 .boy{
   height: 75vh;
   width: 75vh;
-  /* opacity: .6;
-  margin: auto; */
 }
 
 .girl:hover{
@@ -75,12 +77,16 @@ img.girl{
 
 .Pokemans{
   background: skyblue;
-  width: 300px;
-  height: 200px;
+  width: 200px;
+  height: 100%;
   padding: 25px;
   margin: 25px;
+  opacity: 0.6;
 }
 
+#playerName{
+  background: #FE161C;
+}
 
 
 
