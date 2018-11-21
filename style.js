@@ -7,14 +7,13 @@
 //   document.addEventListener("click", yourChara(){
 // });
 
-function playerName() {
- let trainerName = prompt("What is your name?");
-
-  if (trainerName != null) {
-  document.getElementsByClassName("playerName").innerHTML = trainerName;
- }
-}
-
+// function playerName() {
+//  let trainerName = prompt("What is your name?");
+//
+//   if (trainerName != null) {
+//   document.getElementsByClassName("playerName").innerHTML = trainerName;
+//  }
+// }
 
 class pokemans{
   constructor(sprite,name,hp,attack,defense,abilities){
@@ -45,7 +44,7 @@ let darkrai = new pokemans (
 )
 document.getElementById('darkSprite').src = darkrai.sprite;
 document.getElementById('darkName').innerHTML = "Name: " + darkrai.name;
-document.getElementById('darkHp').innerHTML = "Hp: " + darkrai.hp;
+document.getElementById('darkHp').innerHTML = "Hp: " + darkrai.health;
 document.getElementById('darkAttack').innerHTML = "Attack: " + darkrai.attack;
 document.getElementById('darkDefense').innerHTML = "Defense: " + darkrai.defense;
 document.getElementById('darkAbility').innerHTML = "Ability: " + darkrai.abilities;
