@@ -15,6 +15,16 @@
 //  }
 // }
 
+
+
+class Trainer{
+  all(){
+    this.pokemans = [];
+  } 
+}
+
+let trainerName = new trainer 
+
 class pokemans{
   constructor(sprite,name,hp,attack,defense,abilities){
     this.sprite = sprite;
@@ -57,6 +67,8 @@ document.getElementById('zoroarkAbility').innerHTML = "Ability: " + zoroark.abil
   .then(function () {
     // always executed
   });
+
+  
 
   axios.get("https://fizal.me/pokeapi/api/v2/name/ditto.json")
     .then(function (response) {
