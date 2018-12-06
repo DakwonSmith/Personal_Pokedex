@@ -16,14 +16,33 @@
 // }
 
 
+let userName = prompt('What is your name?')
 
-class Trainer{
-  all(){
-    this.pokemans = [];
-  } 
+if (userName != null) {
+  document.getElementById('playerName').innerHTML =
+  'Player Name: ' + userName
 }
 
-let trainerName = new trainer 
+class Trainer {
+  constructor(name){
+  this.name = userName;
+  this.pokemon = [];
+  }
+  all(){
+    return [];
+  }
+  get(everyPoke){
+    for (let i = 0; i < this.pokemon.length; i++){
+      if (name === this.pokemon[i].name){
+        return this.pokemon[i];
+      }
+    }
+  }
+
+}
+
+console.log(userName.name)
+
 
 class pokemans{
   constructor(sprite,name,hp,attack,defense,abilities){
